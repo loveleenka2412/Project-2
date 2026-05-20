@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f3f3f3;
+    font-family:Montserrat,sans-serif;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+}
+
+.container{
+    width:80%;
+    min-height:100vh;
+
+    position:relative;
+
+    padding:80px 100px;
+}
+
+.star{
+    position:absolute;
+    left:30px;
+    top:80px;
+
+    color:#d71c1c;
+
+    font-size:50px;
+}
+
+.future{
+    position:absolute;
+
+    right:40px;
+    top:80px;
+
+    text-align:right;
+
+    color:#6d1d1d;
+
+    font-size:18px;
+}
+
+.left-text{
+    position:absolute;
+
+    left:20px;
+    bottom:220px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.left-text a{
+    color:#922222;
+
+    font-size:26px;
+
+    margin-bottom:8px;
+}
+
+.hero{
+    width:70%;
+    margin:auto;
+}
+
+.hero h1{
+    font-size:72px;
+
+    font-weight:300;
+
+    color:#5d1111;
+
+    line-height:1.1;
+}
+
+.hero h2{
+    font-size:68px;
+
+    font-weight:300;
+
+    color:#c1a2a2;
+
+    margin-left:160px;
+}
+
+.pill{
+    width:90px;
+    height:50px;
+
+    display:inline-block;
+
+    background:url("https://images.unsplash.com/photo-1494790108377-be9c29b29330")
+    center/cover;
+
+    border-radius:40px;
+
+    vertical-align:middle;
+}
+
+.hero p{
+    width:340px;
+
+    margin-top:40px;
+
+    color:#9e3030;
+
+    line-height:1.4;
+}
+
+.gallery{
+    margin-top:40px;
+
+    display:flex;
+    gap:40px;
+}
+
+.card{
+    width:220px;
+    height:300px;
+
+    overflow:hidden;
+
+    border-radius:12px;
+}
+
+.card img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
